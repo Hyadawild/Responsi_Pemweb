@@ -1,0 +1,1 @@
+export { default } from "file:///D:/Anothershiet/Season%204/Pemrograman%20Web/Responsi/Responsi_Pemweb/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
