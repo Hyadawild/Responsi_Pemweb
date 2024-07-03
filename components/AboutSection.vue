@@ -7,20 +7,21 @@
 />
 <section id="about" class="about" data-aos="fade-up">
   <div class="container mx-auto">
+     <h2 class="text-3xl font-semibold text-center mb-8">About And Skill </h2>
     <div class="main-body">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/3 px-4 mb-4">
           <div class="glass-effect shadow-lg rounded-lg p-4">
             <div class="flex flex-col items-center text-center">
               <img
-                src="../assets/img/ara.png"
+                src="../assets/img/LR1-1.jpg"
                 alt="Admin"
                 class="rounded-full w-full"
               />
               <div class="mt-3">
                 <p>Hyadayada</p>
-                <p class="text-gray-500 mb-1">Full Stack Developer eweww</p>
-                <p class="text-gray-400">Bay Area, San Francisco, CA</p>
+                <p class="text-gray-500 mb-1">Full Stack Developer And Software Development</p>
+                <p class="text-gray-400">Klaten, Center Java</p>
                 <button class="btn btn-primary bg-blue-500 text-white px-4 py-2 rounded">Follow</button>
                 <button class="btn btn-outline-primary border border-blue-500 text-blue-500 px-4 py-2 rounded mt-2">Message</button>
               </div>
@@ -49,7 +50,7 @@
                     ></path></svg
                   >Website
                 </h6>
-                <span class="text-gray-500">https://bootdey.com</span>
+                <span class="text-gray-500">https://hyadawild.github.io/Waifus/</span>
               </li>
               <li class="flex justify-between items-center py-3">
                 <h6 class="mb-0 flex items-center">
@@ -70,7 +71,7 @@
                     ></path></svg
                   >Github
                 </h6>
-                <span class="text-gray-500">bootdey</span>
+                <span class="text-gray-500">Hyadayada</span>
               </li>
               <li class="flex justify-between items-center py-3">
                 <h6 class="mb-0 flex items-center">
@@ -91,7 +92,7 @@
                     ></path></svg
                   >Twitter
                 </h6>
-                <span class="text-gray-500">@bootdey</span>
+                <span class="text-gray-500">@kudo_sinichi</span>
               </li>
               <li class="flex justify-between items-center py-3">
                 <h6 class="mb-0 flex items-center">
@@ -121,7 +122,7 @@
                     <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
                   >Instagram
                 </h6>
-                <span class="text-gray-500">bootdey</span>
+                <span class="text-gray-500">haydar_wildan</span>
               </li>
               <li class="flex justify-between items-center py-3">
                 <h6 class="mb-0 flex items-center">
@@ -142,7 +143,7 @@
                     ></path></svg
                   >Facebook
                 </h6>
-                <span class="text-gray-500">bootdey</span>
+                <span class="text-gray-500">haydar_wildan</span>
               </li>
             </ul>
           </div>
@@ -163,14 +164,14 @@
                 <div class="col-sm-3">
                   <h6 class="mb-0">Email</h6>
                 </div>
-                <div class="col-sm-9 text-gray-500">kiran@example.com</div>
+                <div class="col-sm-9 text-gray-500">kudosinichi9290@gmail.com</div>
               </div>
               <hr />
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-0">Phone</h6>
                 </div>
-                <div class="col-sm-9 text-gray-500">(239) 816-9029</div>
+                <div class="col-sm-9 text-gray-500">(239) 696-6969</div>
               </div>
               <hr />
               <div class="row">
@@ -185,7 +186,9 @@
                   <h6 class="mb-0">Address</h6>
                 </div>
                 <div class="col-sm-9 text-gray-500">
-                  Bay Area, San Francisco, CA
+                  <p>
+                    Gang dero no 42, Condongcatur, Sleman,
+                  </p>
                 </div>
               </div>
             </div>
@@ -201,11 +204,11 @@
                       style="width: 80%"
                     ></div>
                   </div>
-                  <small>Website Markup</small>
+                  <small>Reverse Engginering</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
                     <div
                       class="bg-blue-500 h-1.5 rounded-full"
-                      style="width: 72%"
+                      style="width: 78%"
                     ></div>
                   </div>
                   <small>One Page</small>
@@ -233,40 +236,40 @@
               </div>
               <div class="w-full sm:w-1/2 px-2 mb-4">
                 <div data-aos="flip-right" class="glass-effect shadow-lg rounded-lg p-4 h-full">
-                  <h6 class="mb-3">Project Status</h6>
-                  <small>Web Design</small>
+                  <h6 class="mb-3">Languages</h6>
+                  <small>C#</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
                     <div
                       class="bg-blue-500 h-1.5 rounded-full"
                       style="width: 80%"
                     ></div>
                   </div>
-                  <small>Website Markup</small>
+                  <small>Typescript</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
                     <div
                       class="bg-blue-500 h-1.5 rounded-full"
-                      style="width: 72%"
+                      style="width: 76%"
                     ></div>
                   </div>
-                  <small>One Page</small>
+                  <small>PHP</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
                     <div
                       class="bg-blue-500 h-1.5 rounded-full"
-                      style="width: 89%"
+                      style="width: 47%"
                     ></div>
                   </div>
-                  <small>Mobile Template</small>
+                  <small>Python</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
                     <div
                       class="bg-blue-500 h-1.5 rounded-full"
                       style="width: 55%"
                     ></div>
                   </div>
-                  <small>Backend API</small>
+                  <small>Javascript</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5">
                     <div
                       class="bg-blue-500 h-1.5 rounded-full"
-                      style="width: 66%"
+                      style="width: 63%"
                     ></div>
                   </div>
                 </div>

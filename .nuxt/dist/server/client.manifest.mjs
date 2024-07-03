@@ -1,1 +1,1 @@
-export { default } from "file:///D:/Anothershiet/Season%204/Pemrograman%20Web/Responsi/back/Responsi_Pemweb/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///C:/Users/KOMPUTER/Documents/pemweb/Finalres/res/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

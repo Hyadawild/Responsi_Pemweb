@@ -1,7 +1,7 @@
 <template>
 
-    
-      <nav class="nav container">
+    <header class="header" id="header">
+      <nav class="nav container glass-effect">
         <a href="#" class="nav__logo">
           <img src="/assets/img/logo.png" alt="" class="nav__logo-img" />
           Weebs
@@ -22,10 +22,10 @@
             </li>
 
             <li class="nav__item">
-              <a href="#new" class="nav__link">Project</a>
+              <a href="#project" class="nav__link">Project</a>
             </li>
 
-            <a href="#" class="button button--ghost">Follow Me</a>
+            <a href="https://www.linkedin.com/in/haydar-wildan-zacky-7ab2b1266" class="button button--ghost" target="_blank">Follow Me</a>
           </ul>
 
           <div class="nav__close" id="nav-close">
@@ -39,7 +39,7 @@
           <i class="bx bx-grid-alt"></i>
         </div>
       </nav>
-    
+    </header>
 
 </template>
 
@@ -52,3 +52,21 @@ export default {
   name: 'NavSection'
 }
 </script>
+
+<style scoped>
+
+.glass-effect {
+  background: rgba(143, 142, 142, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+ .button--ghost:hover {
+    
+    color: #fff;
+    background: rgba(143, 142, 142, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+
+</style>

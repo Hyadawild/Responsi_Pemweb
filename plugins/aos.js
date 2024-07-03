@@ -5,7 +5,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   if (process.client) {
     nuxtApp.AOS = AOS.init({
       // Di sini Anda bisa menambahkan opsi konfigurasi AOS
-      duration: 800,
+      duration: 900,
       easing: "slide",
     })
   }

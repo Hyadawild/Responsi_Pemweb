@@ -20,7 +20,10 @@ export default {
   css: ["~/assets/main.css", "aos/dist/aos.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "~/plugins/aos.js", mode: "client" }],
+  plugins: [
+    { src: "~/plugins/swiper.js", mode: "client" },
+    { src: "~/plugins/aos.js", mode: "client" },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

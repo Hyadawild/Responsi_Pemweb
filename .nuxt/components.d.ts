@@ -4,6 +4,7 @@ type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {}, {}
 interface _GlobalComponents {
       'AboutSection': typeof import("../components/AboutSection.vue")['default']
     'ContactSection': typeof import("../components/ContactSection.vue")['default']
+    'Favoritwaifu': typeof import("../components/Favoritwaifu.vue")['default']
     'FooterSection': typeof import("../components/FooterSection.vue")['default']
     'HeroSection': typeof import("../components/HeroSection.vue")['default']
     'NavSection': typeof import("../components/NavSection.vue")['default']
@@ -33,6 +34,7 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyAboutSection': typeof import("../components/AboutSection.vue")['default']
     'LazyContactSection': typeof import("../components/ContactSection.vue")['default']
+    'LazyFavoritwaifu': typeof import("../components/Favoritwaifu.vue")['default']
     'LazyFooterSection': typeof import("../components/FooterSection.vue")['default']
     'LazyHeroSection': typeof import("../components/HeroSection.vue")['default']
     'LazyNavSection': typeof import("../components/NavSection.vue")['default']
@@ -76,6 +78,7 @@ declare module 'vue' {
 
 export const AboutSection: typeof import("../components/AboutSection.vue")['default']
 export const ContactSection: typeof import("../components/ContactSection.vue")['default']
+export const Favoritwaifu: typeof import("../components/Favoritwaifu.vue")['default']
 export const FooterSection: typeof import("../components/FooterSection.vue")['default']
 export const HeroSection: typeof import("../components/HeroSection.vue")['default']
 export const NavSection: typeof import("../components/NavSection.vue")['default']
@@ -105,6 +108,7 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyAboutSection: typeof import("../components/AboutSection.vue")['default']
 export const LazyContactSection: typeof import("../components/ContactSection.vue")['default']
+export const LazyFavoritwaifu: typeof import("../components/Favoritwaifu.vue")['default']
 export const LazyFooterSection: typeof import("../components/FooterSection.vue")['default']
 export const LazyHeroSection: typeof import("../components/HeroSection.vue")['default']
 export const LazyNavSection: typeof import("../components/NavSection.vue")['default']
