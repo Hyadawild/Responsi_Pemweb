@@ -3,6 +3,7 @@
     <NavSection />
     <HeroSection />
     <AboutSection />
+    <ProjectsSection />
     <ContactSection />
     <FooterSection/>
   </div>

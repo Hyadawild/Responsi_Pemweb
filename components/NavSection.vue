@@ -18,11 +18,11 @@
             </li>
 
             <li class="nav__item">
-              <a href="#trick" class="nav__link">Waifu</a>
+              <a href="#contact" class="nav__link">Contact</a>
             </li>
 
             <li class="nav__item">
-              <a href="#new" class="nav__link">New Waifu</a>
+              <a href="#new" class="nav__link">Project</a>
             </li>
 
             <a href="#" class="button button--ghost">Follow Me</a>
@@ -44,6 +44,10 @@
 </template>
 
 <script>
+import HeroSection from '~/components/HeroSection.vue';
+import AboutSection from '~/components/AboutSection.vue';
+import ProjectsSection from '~/components/ProjectsSection.vue';
+import ContactSection from '~/components/ContactSection.vue';
 export default {
   name: 'NavSection'
 }

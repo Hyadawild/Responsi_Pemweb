@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/KOMPUTER/Documents/pemweb/Res/backup/res/node_modules/nuxt/dist/app/entry.js": {
+  "D:/Anothershiet/Season 4/Pemrograman Web/Responsi/back/Responsi_Pemweb/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "C:/Users/KOMPUTER/Documents/pemweb/Res/backup/res/node_modules/nuxt/dist/app/entry.js"
+    "file": "D:/Anothershiet/Season 4/Pemrograman Web/Responsi/back/Responsi_Pemweb/node_modules/nuxt/dist/app/entry.js"
   }
 }

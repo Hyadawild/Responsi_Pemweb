@@ -5,7 +5,7 @@
   href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
   rel="stylesheet"
 />
-<section class="about" data-aos="fade-up">
+<section id="about" class="about" data-aos="fade-up">
   <div class="container mx-auto">
     <div class="main-body">
       <div class="flex flex-wrap -mx-4">
@@ -190,10 +190,10 @@
               </div>
             </div>
 
-            <div class="flex flex-wrap -mx-2 mt-4">
+            <div  class="flex flex-wrap -mx-2 mt-4">
               <div class="w-full sm:w-1/2 px-2 mb-4">
-                <div class="glass-effect shadow-lg rounded-lg p-4 h-full">
-                  <h6 class="mb-3">Project Status</h6>
+                <div data-aos="flip-left" class="glass-effect shadow-lg rounded-lg p-4 h-full">
+                  <h6 class="mb-3">Skill</h6>
                   <small>Web Design</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
                     <div
@@ -232,7 +232,7 @@
                 </div>
               </div>
               <div class="w-full sm:w-1/2 px-2 mb-4">
-                <div class="glass-effect shadow-lg rounded-lg p-4 h-full">
+                <div data-aos="flip-right" class="glass-effect shadow-lg rounded-lg p-4 h-full">
                   <h6 class="mb-3">Project Status</h6>
                   <small>Web Design</small>
                   <div class="w-full bg-gray-200 rounded-full h-1.5 mb-3">
@@ -282,9 +282,14 @@
 
 <script>
 export default {
-  name: 'AboutSection'
+  name: 'AboutSection',
+  mounted() {
+    // Memastikan AOS diinisialisasi setelah komponen dimuat
+    this.$nextTick(() => {
+      this.$AOS.refresh()
+    })
+  }
 }
-
 </script>
 
 <style scoped>

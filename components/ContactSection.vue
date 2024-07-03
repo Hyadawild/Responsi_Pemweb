@@ -1,5 +1,5 @@
 <template>
-   <section class="bg-transparent dark:bg-gray-900">
+   <section data-aos="zoom-in" id="contact" class="bg-transparent dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <div class="bg-white dark:bg-gray-800 bg-opacity-30 backdrop-blur-lg rounded-lg shadow-lg p-6">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
@@ -26,7 +26,13 @@
 
 <script>
 export default {
-  name: 'ContactSection'
+  name: 'ContactSection',
+  mounted() {
+    // Memastikan AOS diinisialisasi setelah komponen dimuat
+    this.$nextTick(() => {
+      this.$AOS.refresh()
+    })
+  }
 }
 </script>
 
