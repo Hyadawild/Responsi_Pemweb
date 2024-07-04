@@ -1,4 +1,5 @@
 <template>
+  <section>
 <footer class="footer section">
       <div class="footer__container container grid">
         <div class="footer__content">
@@ -91,6 +92,7 @@
       <img src="#" alt="" class="footer__img-one" />
       <img src="#" alt="" class="footer__img-two" />
     </footer>
+    </section>
 </template>
 
 

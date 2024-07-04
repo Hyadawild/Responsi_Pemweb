@@ -1,5 +1,5 @@
 <template>
-
+<section>
     <header class="header" id="header">
       <nav class="nav container glass-effect">
         <a href="#" class="nav__logo">
@@ -40,7 +40,7 @@
         </div>
       </nav>
     </header>
-
+</section>
 </template>
 
 <script>

@@ -40,11 +40,11 @@ export default {
           description: 'Slamet Esport goes to radiant peak rank Platinum 3.',
           image: 'https://cdn.discordapp.com/attachments/1258095681491697704/1258101313762492466/Radiant_Rank.webp?ex=6686d1a7&is=66858027&hm=3d2473d2bb2f56edb4278f8804ecc1b1731f1a414eb55b6ef1c6a99e03e229f2&',
         },
-//        {
-//          title: 'Wareg Catering',
-//          description: 'Frontend mobile app dengan react native untuk kebutuhan catering online ditujukan untuk mahasiswa dan perantauan.',
-//          image: 'https://img.freepik.com/premium-vector/catering-service-logo-vector-isolated-white-background-eps-10_399089-1877.jpg',
-//        },
+       {
+         title: 'Wareg Catering',
+          description: 'Frontend mobile app dengan react native untuk kebutuhan catering online ditujukan untuk mahasiswa dan perantauan.',
+          image: 'https://img.freepik.com/premium-vector/catering-service-logo-vector-isolated-white-background-eps-10_399089-1877.jpg',
+        },
 
       ],
     };
